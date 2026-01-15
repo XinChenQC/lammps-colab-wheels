@@ -32,10 +32,14 @@ cmake -G Ninja ../cmake \
   -D PKG_EXTRA-DUMP=ON
 
 ninja -j"$(nproc)"
+```
+
 
 ## Install
+
 ```bash
 pip install https://github.com/XinChenQC/lammps-colab-wheels/releases/download/0.0/lammps_colab-0.0.0-cp312-cp312-linux_x86_64.whl
+```
 
 # lammps-colab-T4 wheel (serial)
 
@@ -98,4 +102,4 @@ cmake -G Ninja ../cmake \
   -D PKG_EXTRA-DUMP=ON
 
 ninja -j"$(nproc)"
-
+```
